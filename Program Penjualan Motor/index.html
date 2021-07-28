@@ -79,6 +79,86 @@
             <button class="btn-success btn" type="submit" onclick="proses()">Proses</button>
             <button class="btn-danger btn" type="reset">Reset</button>
         </form>
+        <h5>Keterangan</h5>
+        <p>
+            <strong>Program Penjualan Motor : </strong>
+            input <i>Merk Motor, Aksesoris dan Cara Pembayaran</i> di inputkan secara manual,
+            dan akan di <br> <i>proses</i> otomatis dengan JavaScript yang sudah di beri rumus sebagai berikut : <br>
+            Pilihan Motor :
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>Merk Motor</td>
+                    <td></td>
+                    <td>Harga</td>
+                </tr>
+                <tr>
+                    <td>Honda</td>
+                    <td>=</td>
+                    <td>15.000.000</td>
+                </tr>
+                <tr>
+                    <td>Yamaha</td>
+                    <td>=</td>
+                    <td>14.000.000</td>
+                </tr>
+                <tr>
+                    <td>Suzuki</td>
+                    <td>=</td>
+                    <td>13.000.000</td>
+                </tr>
+            </table>
+            Pilihan Aksesoris :
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>Aksesoris</td>
+                    <td></td>
+                    <td>Harga</td>
+                </tr>
+                <tr>
+                    <td>Velg Racing</td>
+                    <td>=</td>
+                    <td>450.000</td>
+                </tr>
+                <tr>
+                    <td>Helm</td>
+                    <td>=</td>
+                    <td>250.000</td>
+                </tr>
+                <tr>
+                    <td>Jaket</td>
+                    <td>=</td>
+                    <td>300.000</td>
+                </tr>
+            </table>
+            Pembayaran :
+            <table style="border: 1px solid black;">
+                <tr style="border: 1px solid black;">
+                    <td>Pembayaran</td>
+                    <td></td>
+                    <td>Rumus</td>
+                    <td style="border: 1px solid black;"></td>
+                    <td>Total</td>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>Tunai</td>
+                    <td>=</td>
+                    <td>harga * diskon</td>
+                    <td style="border: 1px solid black;"></td>
+                    <td> diskon - harga</td>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td>Kredit</td>
+                    <td>=</td>
+                    <td>harga * bunga</td>
+                    <td style="border: 1px solid black;"> </td>
+                    <td>bunga - harga</td>
+                </tr>
+
+            </table>
+
+            <i>*Jika <strong>Pembayaran Tunai </strong> maka akan dapat diskon sebesar 10% dan jika <strong>Pembayaran
+                    Kredit </strong>akan di kenai bunga sebesar 15%</i>
+        </p>
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
